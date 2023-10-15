@@ -33,7 +33,7 @@ const Product = ({id, name, title, colors, sizes, basePrice}) => {
     `)
     };
 
-    const handleSizeChange = (size, additionalPrice) => {
+    const handleSizeChange = (size) => {
         setSelectedSize(size);
     };
 
